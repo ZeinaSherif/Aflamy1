@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".english_movies">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="135dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@drawable/finallogo" />
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mtrl_card_checked_layer_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal= "10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+            <androidx.appcompat.widget.SearchView
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:id="@+id/searchView"
+                />
+        </androidx.cardview.widget.CardView>
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="295dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="233dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:contentDescription="Description of the button's purpose"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363"
+                app:srcCompat="@drawable/theblueelephantposter" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="  الفيل الازرق"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="  دراما و غموض "
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="      8.0 ⭐"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="    2h 50m"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="295dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of the button's purpose"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363"
+                app:srcCompat="@drawable/weladrezk" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="       ولاد رزق"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="         أكشن    "
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="      7.4 ⭐"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="   2h 8m"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="295dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:contentDescription="Description of the button's purpose"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.333"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.363"
+                app:srcCompat="@drawable/bankhaz" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="       بنك الحظ "
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="        كوميدي    "
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="      6.4 ⭐"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="180dp"
+                    android:layout_height="70dp"
+                    android:background="@color/material_on_primary_disabled"
+                    android:text="    2h 2m"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

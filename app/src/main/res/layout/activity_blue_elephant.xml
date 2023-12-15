@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".interstellar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="135dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@drawable/finallogo" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@drawable/theblueelephantposter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     الفيل الازرق"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text=" 🇪🇬"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:background="@color/material_on_primary_disabled"
+                android:text="  8.0⭐"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="normal|italic" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/material_on_primary_disabled"
+            android:text="170 min 🕒     2014"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal|italic" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:text="غموض"
+                    android:textSize="25dp"
+                    android:backgroundTint="@color/black"/>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:text="رعب"
+                    android:textSize="25dp"
+                    android:backgroundTint="@color/black" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:backgroundTint="@color/black"
+                    android:text="اثارة"
+                    android:textSize="25dp" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:text="تشويق"
+                    android:textSize="18dp"
+                    android:backgroundTint="@color/black"/>
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:text="دراما"
+                    android:textSize="20dp"
+                    android:backgroundTint="@color/black"  />
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="140dp"
+                    android:layout_height="76dp"
+                    android:text="جريمة"
+                    android:textSize="20dp"
+                    android:backgroundTint="@color/black"  />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text=" قصة الفيلم :"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="(يحيى) طبيب نفسي، منقطع عن العمل منذ خمس سنوات، يعود من جديد للعمل بمستشفي العباسية، ويُطلب منه كتابة تقريرٍ عن مريضٍ نفسي، يصدم عندما يكتشف أن هذا المريض هو صديقه القديم دكتور (شريف الكردي)، وتتعقد الأحداث لتكشف لنا عن أسرارٍ مثيرة تتعلق بأبطال العمل لتُزيح الستار عن جبلٍ من الغموض."
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="الممثلين :"
+            android:layout_gravity="right"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/batalintersellarmathhew"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/karimabdelaziz"
+                        app:shapeAppearanceOverlay="@style/circular" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Karim Abdelaziz"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Yehia"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/nellykarim" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Nelly Karim"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Lobna"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/khaledelsawy" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Khaled ElSawy"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Sherif"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mohamedmamdouh" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Mohamed Mamdouh"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Sameh"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="افلام اخري :"
+            android:layout_gravity="right"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="238dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Description of the button's purpose"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.363"
+                    app:srcCompat="@drawable/weladrezk" />
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="238dp"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Description of the button's purpose"
+                    android:scaleType="fitXY"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.333"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.363"
+                    app:srcCompat="@drawable/bankhaz" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

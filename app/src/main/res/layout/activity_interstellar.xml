@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".interstellar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="135dp"
+        android:layout_height="95dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004"
+        app:srcCompat="@drawable/finallogo" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@drawable/intersellarposter2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="15dp"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" INTERSTELLAR"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:text="  🇺🇸"
+                android:textSize="30dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="109dp"
+                android:layout_height="match_parent"
+                android:background="@color/material_on_primary_disabled"
+                android:text="  8.7⭐"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="normal|italic" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/material_on_primary_disabled"
+            android:text="169 min 🕒     2014"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal|italic" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="600dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:text="Sci-Fi"
+                android:textSize="25dp"
+                android:backgroundTint="@color/black"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:text="Action"
+                android:textSize="25dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:text="Thriller"
+                android:textSize="25dp"
+                android:backgroundTint="@color/black" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:text="Adventure"
+                android:textSize="18dp"
+                android:backgroundTint="@color/black"/>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="140dp"
+                android:layout_height="76dp"
+                android:text="Suspense"
+                android:textSize="20dp"
+                android:backgroundTint="@color/black"  />
+
+        </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="Description :"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans."
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="Actors :"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/batalintersellarmathhew"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/batalintersellarmathhew"
+                        app:shapeAppearanceOverlay="@style/circular" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Matthew McConaughey"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Cooper"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bataletintersellarannahathaway" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Anne Hathaway"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Brand"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView4"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/mackenziefoy" />
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Mackenzie Foy"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Murph(10Yrs.)"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView5"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/jessicachastain" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Jessica Chastain"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Murph"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView6"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/timotheechalamet" />
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Timothée Chalamet"
+                        android:textColor="@color/white"
+                        android:textSize="23dp"
+                        android:textStyle="normal" />
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:text="Tom"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="Recommended :"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.255">
+
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="238dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="Description of the button's purpose"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363"
+            app:srcCompat="@drawable/poster1917" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="238dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="Description of the button's purpose"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.363"
+            app:srcCompat="@drawable/spidermannowayhomeposter" />
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".interstellar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="135dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004"
+            app:srcCompat="@drawable/finallogo" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.004" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.255">
+
+
+            <EditText
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/material_on_primary_disabled"
+                android:hint="Movie Name"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textView23"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:background="@color/material_on_primary_disabled"
+                android:hint="  🇺🇸"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/textView24"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="@color/material_on_primary_disabled"
+                android:hint="rate⭐"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="30dp"
+                android:textStyle="normal|italic" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/textView40"
+            android:layout_width="339dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:background="@color/material_on_primary_disabled"
+            android:hint="         min 🕒    year"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal|italic" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+                <EditText
+                    android:id="@+id/textView50"
+                    android:layout_width="109dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:layout_marginRight="10dp"
+                    android:hint=" Genre 1"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="normal|italic" />
+                <EditText
+                    android:id="@+id/textView51"
+                    android:layout_width="109dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/black"
+                    android:hint=" Genre 2"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="normal|italic" />
+
+                <EditText
+                    android:id="@+id/textView52"
+                    android:layout_width="109dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:hint=" Genre 3"
+                    android:layout_marginRight="10dp"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="normal|italic" />
+
+                <EditText
+                    android:id="@+id/textView53"
+                    android:layout_width="109dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:background="@color/black"
+                    android:hint=" Genre 4"
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/white"
+                    android:textSize="30dp"
+                    android:textStyle="normal|italic" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="Description :"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_on_primary_disabled"
+            android:hint=" Write Description Here"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral10"
+            android:text="Actors :"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/imageView"
+                app:layout_constraintVertical_bias="0.255">
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        app:shapeAppearanceOverlay="@style/circular" />
+
+                    <EditText
+                        android:id="@+id/textView55"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint=" Actor 1 name"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+
+                    <EditText
+                        android:id="@+id/textView56"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint="Name in movie"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView10"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        app:shapeAppearanceOverlay="@style/circular" />
+
+                    <EditText
+                        android:id="@+id/textView57"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint=" Actor 2 name"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+
+                    <EditText
+                        android:id="@+id/textView58"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint="Name in movie"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/imageView"
+                    app:layout_constraintVertical_bias="0.255">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/myImageView1"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="5dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitXY"
+                        app:shapeAppearanceOverlay="@style/circular" />
+
+                    <EditText
+                        android:id="@+id/textView59"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint=" Actor 3 name"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+
+                    <EditText
+                        android:id="@+id/textView60"
+                        android:layout_width="144dp"
+                        android:layout_height="65dp"
+                        android:background="@color/material_on_primary_disabled"
+                        android:hint="Name in movie"
+                        android:textColorHint="@color/white"
+                        android:textColor="@color/white"
+                        android:textSize="25dp"
+                        android:textStyle="normal|italic" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/material_dynamic_neutral30"
+                android:text="Save English Movie"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="@color/material_dynamic_neutral30"
+                android:text="Save Arabic Movie"
+                android:textSize="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
