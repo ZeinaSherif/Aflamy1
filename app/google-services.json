@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "773471381838",
+    "project_id": "aflamy-de8c5",
+    "storage_bucket": "aflamy-de8c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773471381838:android:4f063b025d058be843161f",
+        "android_client_info": {
+          "package_name": "com.example.aflamy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCCVImrBZ_w6x5DuYKN3OCnQhxTJb75vE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
