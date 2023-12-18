@@ -1,20 +1,30 @@
 // ArabicEnglish.java
 package com.example.aflamy;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ArabicEnglish extends AppCompatActivity {
     ImageButton english, arabic;
     String userType = "default"; // Default value
+    TextView welcomeTextView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_arabic_english);
+        welcomeTextView =findViewById(R.id.textView25);
+        SharedPreferences sp = getApplication().getSharedPreferences("Myuser", Context.MODE_PRIVATE);
+        String user=sp.getString("username","");
+        welcomeTextView.setText("Welcome "+ user );
 
         // Initialize userType with a default value or handle null appropriately
         userType = getIntent().getStringExtra("userType");

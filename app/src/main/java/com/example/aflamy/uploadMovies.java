@@ -4,8 +4,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.google.firebase.database.Exclude;
+
 public class uploadMovies {
     private String image;
+    private String act1Image;
+    private String act2Image;
+    private String act3Image;
     private String movieName;
     private String country;
     private String rate;
@@ -92,8 +97,20 @@ public class uploadMovies {
         return name3;
     }
 
-    public uploadMovies(String image, String movieName, String country, String rate, String year, String min, String genre1, String genre2, String genre3, String genre4, String desc, String act1, String act2, String act3, String name1, String name2, String name3) {
+    public String getAct1Image() { return act1Image; }
+
+    public String getAct2Image() { return act2Image; }
+
+    public String getAct3Image() { return act3Image; }
+
+    public uploadMovies() {
+    }
+
+    public uploadMovies(String image, String act1Image, String act2Image, String act3Image , String movieName, String country, String rate, String year, String min, String genre1, String genre2, String genre3, String genre4, String desc, String act1, String act2, String act3, String name1, String name2, String name3) {
         this.image = image;
+        this.act1Image=act1Image;
+        this.act2Image=act2Image;
+        this.act3Image=act3Image;
         this.movieName = movieName;
         this.country = country;
         this.rate = rate;

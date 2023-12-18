@@ -9,12 +9,20 @@ import android.widget.ImageButton;
 
 public class admin_arabic_movies extends AppCompatActivity {
 
-    ImageButton add;
+    ImageButton add,blueelephant;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_arabic_movies);
         add = findViewById(R.id.imageButton7);
+        blueelephant = findViewById(R.id.imageButton3);
+        blueelephant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openbluelep();
+
+            }
+        });
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -24,6 +32,10 @@ public class admin_arabic_movies extends AppCompatActivity {
     }
     public void addMovie(){
         Intent intent = new Intent(this, add_movies.class);
+        startActivity(intent);
+    }
+    public void openbluelep(){
+        Intent intent = new Intent(this, blue_elephant.class);
         startActivity(intent);
     }
 }
