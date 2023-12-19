@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_hint">اسم المستخدم</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="username_text">اسم المستخدم</string>
+    <string name="password_text">كلمة المرور</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="register_button">انشاء حساب</string>
+    <string name="first_name_hint">الاسم الأول</string>
+    <string name="last_name_hint">الاسم الأخير</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="create_account_button">إنشاء حساب</string>
+
+</resources>
